@@ -11,5 +11,6 @@ public interface ApiService {
 
     // TODO move to formurlencoded
     @FormUrlEncoded
-    @POST("register")
+    @POST("")
     Call<TwitterResponse> register(@Field("phone") String phone);
+}
